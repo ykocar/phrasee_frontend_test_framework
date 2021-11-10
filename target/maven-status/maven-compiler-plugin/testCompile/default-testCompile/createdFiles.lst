@@ -1,0 +1,12 @@
+java\com\phrasee\utilities\Driver.class
+java\com\phrasee\stepDefinitions\UploadingFilesStepDefs.class
+java\com\phrasee\pages\DashboardPage.class
+java\com\phrasee\stepDefinitions\Log_inStepDefs.class
+java\com\phrasee\utilities\ConfigurationReader.class
+java\com\phrasee\stepDefinitions\LogoutStepDefs.class
+java\com\phrasee\runner\CukesRunner.class
+java\com\phrasee\pages\BasePage.class
+java\com\phrasee\stepDefinitions\DownloadingFilesStepDefs.class
+java\com\phrasee\pages\LoginPage.class
+java\com\phrasee\stepDefinitions\Hooks.class
+java\com\phrasee\utilities\BrowserUtils.class

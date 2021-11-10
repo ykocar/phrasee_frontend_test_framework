@@ -1,0 +1,794 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5326647000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the log-in page",
+            "match": {
+              "location": "LoginStepDefs.theUserIsOnTheLogInPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T19:19:26.545Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2738264100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "User log-in with valid credentials",
+        "description": "",
+        "id": "users-should-be-able-to-login;user-log-in-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 697556600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 376365000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user enters the credentials",
+            "match": {
+              "location": "LoginStepDefs.theUserEntersTheCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3024227800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user should be able to login",
+            "match": {
+              "location": "LoginStepDefs.theUserShouldBeAbleToLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@vip"
+          },
+          {
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4786107900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the log-in page",
+            "match": {
+              "location": "LoginStepDefs.theUserIsOnTheLogInPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T19:19:38.736Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1513534500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "User log-in with invalid or blank credentials",
+        "description": "",
+        "id": "users-should-be-able-to-login;user-log-in-with-invalid-or-blank-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 672574500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 307644400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user loged in using invalid or blank \"\" \"!jC8zICx^5a9\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"!jC8zICx^5a9\"",
+                  "offset": 44
+                }
+              ],
+              "location": "LoginStepDefs.theUserLogedInUsingInvalidOrBlank(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3011242800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user should not be able to login with \"\" \"!jC8zICx^5a9\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"!jC8zICx^5a9\"",
+                  "offset": 45
+                }
+              ],
+              "location": "LoginStepDefs.theUserShouldNotBeAbleToLoginWith(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@vip"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4962271300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the log-in page",
+            "match": {
+              "location": "LoginStepDefs.theUserIsOnTheLogInPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T19:19:49.038Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1499968000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User log-in with invalid or blank credentials",
+        "description": "",
+        "id": "users-should-be-able-to-login;user-log-in-with-invalid-or-blank-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 688391700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 277076800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user loged in using invalid or blank \"yasinkocar@gmail.com\" \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yasinkocar@gmail.com\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 64
+                }
+              ],
+              "location": "LoginStepDefs.theUserLogedInUsingInvalidOrBlank(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3001744200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user should not be able to login with \"yasinkocar@gmail.com\" \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yasinkocar@gmail.com\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 65
+                }
+              ],
+              "location": "LoginStepDefs.theUserShouldNotBeAbleToLoginWith(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@vip"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4699830800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the log-in page",
+            "match": {
+              "location": "LoginStepDefs.theUserIsOnTheLogInPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T19:19:59.470Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1477968300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User log-in with invalid or blank credentials",
+        "description": "",
+        "id": "users-should-be-able-to-login;user-log-in-with-invalid-or-blank-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 673362000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 317446200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user loged in using invalid or blank \"yasinkocar\" \"!jC8zICx^5a9\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yasinkocar\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"!jC8zICx^5a9\"",
+                  "offset": 54
+                }
+              ],
+              "location": "LoginStepDefs.theUserLogedInUsingInvalidOrBlank(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3061272300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user should not be able to login with \"yasinkocar\" \"!jC8zICx^5a9\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yasinkocar\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"!jC8zICx^5a9\"",
+                  "offset": 55
+                }
+              ],
+              "location": "LoginStepDefs.theUserShouldNotBeAbleToLoginWith(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@vip"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5049045900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the log-in page",
+            "match": {
+              "location": "LoginStepDefs.theUserIsOnTheLogInPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T19:20:09.704Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1479510600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "User log-in with invalid or blank credentials",
+        "description": "",
+        "id": "users-should-be-able-to-login;user-log-in-with-invalid-or-blank-credentials;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 666201600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 323926300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user loged in using invalid or blank \"yasinkocar@gmail.com\" \"113dfdfdfg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yasinkocar@gmail.com\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"113dfdfdfg\"",
+                  "offset": 64
+                }
+              ],
+              "location": "LoginStepDefs.theUserLogedInUsingInvalidOrBlank(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5018463700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user should not be able to login with \"yasinkocar@gmail.com\" \"113dfdfdfg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yasinkocar@gmail.com\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"113dfdfdfg\"",
+                  "offset": 65
+                }
+              ],
+              "location": "LoginStepDefs.theUserShouldNotBeAbleToLoginWith(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@vip"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      }
+    ],
+    "name": "Users should be able to login",
+    "description": "",
+    "id": "users-should-be-able-to-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@vip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-10T19:20:22.245Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1474813100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Setup and Language Generation",
+        "description": "",
+        "id": "setup-for-creating-a-campaign;setup-and-language-generation",
+        "after": [
+          {
+            "result": {
+              "duration": 693649700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4964356900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the main page",
+            "match": {
+              "location": "SetupStepDefs.theUserIsOnTheMainPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2717721600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks Create new campaign button",
+            "match": {
+              "location": "SetupStepDefs.theUserClicksCreateNewCampaignButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2115533300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user select Email tab",
+            "match": {
+              "location": "SetupStepDefs.userSelectEmailTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 280882400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selects a project",
+            "match": {
+              "location": "SetupStepDefs.userSelectsAProject()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 939953300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the required info for the campaign",
+            "match": {
+              "location": "SetupStepDefs.userEntersTheRequiredInfoForTheCampaign()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3133881300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user clicks next button",
+            "match": {
+              "location": "SetupStepDefs.theUserClicksNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61228800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should see the completed sign for the Setup",
+            "match": {
+              "location": "SetupStepDefs.theUserShouldSeeTheCompletedSignForTheSetup()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2343172400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user selects date for the email",
+            "match": {
+              "location": "LG_stepDefs.theUserSelectsDateForTheEmail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 408517600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user selects campaign type",
+            "match": {
+              "location": "LG_stepDefs.theUserSelectsCampaignType()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 292372300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user enters product name",
+            "match": {
+              "location": "LG_stepDefs.theUserEntersProductName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 253949700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user enters discount offered and chooses Yes before the discount",
+            "match": {
+              "location": "LG_stepDefs.theUserEntersDiscountOfferedAndChoosesYesBeforeTheDiscount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 350269500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user selects specific category type",
+            "match": {
+              "location": "LG_stepDefs.theUserSelectsSpecificCategoryType()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 348166000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user selects calendar event",
+            "match": {
+              "location": "LG_stepDefs.theUserSelectsCalendarEvent()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 305379300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user selects offer ending option",
+            "match": {
+              "location": "LG_stepDefs.theUserSelectsOfferEndingOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2370685000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user selects offer ending time",
+            "match": {
+              "location": "LG_stepDefs.theUserSelectsOfferEndingTime()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5169525500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user clicks Magic button",
+            "match": {
+              "location": "LG_stepDefs.theUserClicksMagicButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49975700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user should see the Phrasee\u0027s set heading text",
+            "match": {
+              "location": "LG_stepDefs.theUserShouldSeeThePhraseeSSetHeadingText()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@vip"
+          }
+        ]
+      }
+    ],
+    "name": "Setup for creating a campaign",
+    "description": "",
+    "id": "setup-for-creating-a-campaign",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Setup_and_languageGeneration.feature",
+    "tags": [
+      {
+        "name": "@vip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
